@@ -1,0 +1,11 @@
+{
+  "name": "@google/excel-mcp-server-extension",
+  "version": "0.1.7",
+  "description": "Excel MCP Server extension for Gemini CLI",
+  "private": true,
+  "scripts": {
+    "postinstall": "node install-deps.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

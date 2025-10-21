@@ -1,0 +1,15 @@
+{
+  "name": "excel-mcp-server",
+  "version": "0.1.7",
+  "description": "Excel MCP Server for creating and manipulating Excel files without Microsoft Excel",
+  "platforms": ["win32", "darwin", "linux"],
+  "mcpServers": {
+    "excel": {
+      "command": "${embeddedPythonPath}",
+      "args": ["-m", "excel_mcp", "stdio"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
